@@ -3,8 +3,13 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import styles from '@/app/ui/home.module.css';
 import { lusi } from '@/app/ui/fonts';
 import Image from 'next/image';
-
 import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Home',
+};
+
 
 export default function Page() {
   return (
