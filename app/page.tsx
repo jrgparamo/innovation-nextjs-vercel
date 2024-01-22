@@ -21,11 +21,7 @@ export default function Page() {
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
         <div className={styles.shape}/>
           <p className={`${lusi.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>Welcome to Master Branch.</strong> This is an example of {' '}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js
-            </a>
-            , brought to you by Vercel.
+            <strong>Welcome to Feature Branch 16.</strong> This is an example of a feature branch with major changes
           </p>
           <Link
             href="/login"
@@ -35,7 +31,7 @@ export default function Page() {
           </Link>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
-          This branch has no login functionality, no invoices page, and its routes are not secured
+          This branch has authentication functionality, an invoices page, and its routes are secured
         </div>
       </div>
     </main>
