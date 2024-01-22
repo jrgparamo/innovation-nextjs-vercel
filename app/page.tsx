@@ -30,7 +30,7 @@ export default function Page() {
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           <p>In this branch, render blocking of components have been dealt with by leveraging <span className="font-bold underline decoration-solid">Streaming</span> and <span className="font-bold underline decoration-solid">Suspense</span> in NextJS.</p>
-          <ul class="list-disc">
+          <ul className="list-disc">
             <li>By Streaming, you can prevent slow data requests from blocking your whole page.</li>
             <li>This allows the user to see and interact with parts of the page without waiting for all the data to load before any UI can be shown to the user.</li>
           </ul>
